@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520">
+<defs>
+<pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#3A3070"/></pattern>
+<pattern id="cellsL" width="76" height="56" patternUnits="userSpaceOnUse" patternTransform="translate(194 146)"><rect width="64" height="44" rx="8" fill="#FF6FB0" fill-opacity=".3" stroke="#FF6FB0" stroke-width="2.500"/></pattern>
+<pattern id="cellsR" width="76" height="56" patternUnits="userSpaceOnUse" patternTransform="translate(694 146)"><rect width="64" height="44" rx="8" fill="#2B2257" stroke="#3A3070" stroke-width="2"/></pattern>
+<path id="spark" d="M0 -14L4 -4L14 0L4 4L0 14L-4 4L-14 0L-4 -4Z"/>
+</defs>
+<rect width="1200" height="520" fill="#1B1636"/>
+<rect width="1200" height="520" fill="url(#dots)" opacity=".6"/>
+
+<rect x="178" y="98" width="360" height="340" rx="14" fill="#0B081B"/>
+<rect x="170" y="90" width="360" height="340" rx="14" fill="#221B45" stroke="#F4F0FF" stroke-width="3"/>
+<rect x="194" y="112" width="110" height="14" rx="7" fill="#5A4DA0"/>
+<rect x="194" y="146" width="304" height="280" fill="url(#cellsL)"/>
+
+<rect x="678" y="98" width="360" height="340" rx="14" fill="#0B081B"/>
+<rect x="670" y="90" width="360" height="340" rx="14" fill="#221B45" stroke="#F4F0FF" stroke-width="3"/>
+<rect x="694" y="112" width="110" height="14" rx="7" fill="#5A4DA0"/>
+<rect x="694" y="146" width="304" height="280" fill="url(#cellsR)"/>
+<rect x="770" y="202" width="64" height="44" rx="8" fill="#C6F432" stroke="#F4F0FF" stroke-width="3"/>
+<rect x="846" y="314" width="64" height="44" rx="8" fill="#C6F432" stroke="#F4F0FF" stroke-width="3"/>
+<rect x="922" y="258" width="64" height="44" rx="8" fill="#C6F432" stroke="#F4F0FF" stroke-width="3"/>
+
+<path d="M556 262h86" stroke="#F4F0FF" stroke-width="4" stroke-linecap="round"/>
+<path d="M628 248l16 14-16 14" fill="none" stroke="#C6F432" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+<use href="#spark" transform="translate(110 80) scale(1.3)" fill="#FF6FB0"/>
+<use href="#spark" transform="translate(1100 80) scale(1.3)" fill="#C6F432"/>
+<use href="#spark" transform="translate(600 480) scale(1)" fill="#C6F432"/>
+</svg>

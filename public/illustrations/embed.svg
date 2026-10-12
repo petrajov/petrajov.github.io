@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520">
+<defs>
+<pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#3A3070"/></pattern>
+<path id="spark" d="M0 -14L4 -4L14 0L4 4L0 14L-4 4L-14 0L-4 -4Z"/>
+<g id="site">
+<rect x="8" y="8" width="260" height="200" rx="14" fill="#0B081B"/>
+<rect width="260" height="200" rx="14" fill="#221B45" stroke="#F4F0FF" stroke-width="3"/>
+<path d="M1.5 30H258.5V14A12.5 12.5 0 0 0 246 1.5H14A12.5 12.5 0 0 0 1.5 14Z" fill="#2B2257"/>
+<circle cx="18" cy="16" r="4" fill="#5A4DA0"/><circle cx="32" cy="16" r="4" fill="#5A4DA0"/><circle cx="46" cy="16" r="4" fill="#5A4DA0"/>
+</g>
+</defs>
+<rect width="1200" height="520" fill="#1B1636"/>
+<rect width="1200" height="520" fill="url(#dots)" opacity=".6"/>
+
+<path d="M600 168C600 210 300 190 300 250" fill="none" stroke="#C6F432" stroke-width="3" stroke-dasharray="8 10" stroke-linecap="round"/>
+<path d="M600 168V250" fill="none" stroke="#C6F432" stroke-width="3" stroke-dasharray="8 10" stroke-linecap="round"/>
+<path d="M600 168C600 210 900 190 900 250" fill="none" stroke="#C6F432" stroke-width="3" stroke-dasharray="8 10" stroke-linecap="round"/>
+
+<g transform="translate(520 50)">
+<rect x="8" y="8" width="160" height="110" rx="14" fill="#0B081B"/>
+<rect width="160" height="110" rx="14" fill="#221B45" stroke="#F4F0FF" stroke-width="3"/>
+<path d="M54 30L32 55L54 80" fill="none" stroke="#C6F432" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M106 30L128 55L106 80" fill="none" stroke="#C6F432" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M89 24L71 86" fill="none" stroke="#FF6FB0" stroke-width="7" stroke-linecap="round"/>
+</g>
+
+<use href="#site" transform="translate(170 250)"/>
+<rect x="190" y="296" width="220" height="50" rx="8" fill="#2B2257"/>
+<rect x="190" y="356" width="104" height="70" rx="8" fill="#2B2257"/>
+<rect x="306" y="356" width="104" height="70" rx="8" fill="#2B2257"/>
+
+<use href="#site" transform="translate(470 250)"/>
+<rect x="490" y="296" width="220" height="70" rx="8" fill="#3A3070"/>
+<rect x="490" y="378" width="140" height="10" rx="5" fill="#5A4DA0"/>
+<rect x="490" y="398" width="100" height="10" rx="5" fill="#5A4DA0"/>
+
+<use href="#site" transform="translate(770 250)"/>
+<rect x="790" y="296" width="104" height="60" rx="8" fill="#2B2257"/>
+<rect x="906" y="296" width="104" height="60" rx="8" fill="#2B2257"/>
+<rect x="790" y="368" width="104" height="58" rx="8" fill="#2B2257"/>
+<rect x="906" y="368" width="104" height="58" rx="8" fill="#2B2257"/>
+
+<g transform="translate(330 370)">
+<rect x="6" y="6" width="120" height="80" rx="12" fill="#0B081B"/>
+<rect width="120" height="80" rx="12" fill="#F4F0FF" stroke="#15112B" stroke-width="3"/>
+<circle cx="30" cy="28" r="14" fill="#C6F432" stroke="#15112B" stroke-width="2.500"/>
+<rect x="52" y="20" width="56" height="9" rx="4.500" fill="#15112B"/>
+<rect x="16" y="52" width="88" height="18" rx="9" fill="#C6F432" stroke="#15112B" stroke-width="2.500"/>
+</g>
+<g transform="translate(630 360)">
+<rect x="6" y="6" width="120" height="80" rx="12" fill="#0B081B"/>
+<rect width="120" height="80" rx="12" fill="#F4F0FF" stroke="#15112B" stroke-width="3"/>
+<circle cx="30" cy="28" r="14" fill="#FF6FB0" stroke="#15112B" stroke-width="2.500"/>
+<rect x="52" y="20" width="56" height="9" rx="4.500" fill="#15112B"/>
+<rect x="16" y="52" width="88" height="18" rx="9" fill="#FF6FB0" stroke="#15112B" stroke-width="2.500"/>
+</g>
+<g transform="translate(930 370)">
+<rect x="6" y="6" width="120" height="80" rx="12" fill="#0B081B"/>
+<rect width="120" height="80" rx="12" fill="#F4F0FF" stroke="#15112B" stroke-width="3"/>
+<circle cx="30" cy="28" r="14" fill="#8FA8FF" stroke="#15112B" stroke-width="2.500"/>
+<rect x="52" y="20" width="56" height="9" rx="4.500" fill="#15112B"/>
+<rect x="16" y="52" width="88" height="18" rx="9" fill="#8FA8FF" stroke="#15112B" stroke-width="2.500"/>
+</g>
+
+<use href="#spark" transform="translate(150 100) scale(1.3)" fill="#FF6FB0"/>
+<use href="#spark" transform="translate(1060 110) scale(1.2)" fill="#C6F432"/>
+</svg>
